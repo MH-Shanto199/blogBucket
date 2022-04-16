@@ -35,6 +35,9 @@
     >
     <!--fontawesome-->
 
+    @yield('css_lib')
+    @yield('css')
+
     <title>@yield('title')</title>
 </head>
 <body>

@@ -1,6 +1,6 @@
 @extends('appLayout')
 
-@section('title', 'Landing')
+@section('title', 'BlockBucket')
 
 @section('content')
     <x-navbar/>

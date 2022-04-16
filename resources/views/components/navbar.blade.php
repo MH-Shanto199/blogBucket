@@ -42,10 +42,13 @@
                             >
                                 <span>
                                     {{ __('Logout') }}
-                                </span>            
-                                <i class="fa fa-arrow-right"></i>
+                                </span>
+                                <i class="fa fa-arrow-left"></i>            
+                                {{-- <i class="fa fa-arrow-right"></i> --}}
                             </a>
-                            <a class="dropdown-item d-flex align-items-center justify-content-around" href="">
+                            <a class="dropdown-item d-flex align-items-center justify-content-around {{ (request()->is('profile*'))?'bg-secondary text-light':'' }}" 
+                                href="{{ route('profile') }}"
+                            >
                                 <span>
                                     {{ __('Profile') }}
                                 </span>

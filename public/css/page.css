@@ -1,3 +1,26 @@
 .app-text-color {
     color: #131F45 !important;
 }
+
+.user-data {
+    margin: 0;list-style: none;
+}
+
+.user-data li {
+    display: block;
+    padding-bottom: 16px;
+    font-size: 23px;
+    font-weight: 600;
+    color: #131F45 !important;
+}
+
+.user-data li span {
+    font-weight: 100;
+    font-size: 18px;
+    color: #131F45 !important;
+}
+
+.top-right-position {
+    position: absolute;
+    right: 10%;
+}
